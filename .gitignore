@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+venv/
+*.egg-info/
+dist/
+build/
+output/
+output_test/
+output_backup_*.zip
+*.exe
+*.spec
+release/
+
+# Dev tool artifacts
+.kiro/
+
+# Generated images & docs
+*.png
+PRINCIPLES.*
+PRINCIPLES_INTERVIEW.*
+
+# Temp validation scripts
+validate_pnp.py
+verify_results.py
+visual_compare.py
+
+# Duplicate/obsolete root scripts (use tools/ instead)
+validate_accuracy.py

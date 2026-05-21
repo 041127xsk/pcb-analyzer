@@ -1,0 +1,32 @@
+# 封装定义示例 (YAML 格式)
+# 将此文件放入 config/packages/ 目录，或通过 --package-lib 参数指定路径
+
+packages:
+  - id: "CUSTOM_LED_0603"
+    type: "led"
+    pad_count: 2
+    width_min: 0.6
+    width_max: 1.2
+    height_min: 0.3
+    height_max: 0.7
+    aspect_ratio_min: 1.2
+    aspect_ratio_max: 3.0
+    category: "discrete"
+    pad_shape: "rect"
+    description: "0603 LED"
+
+  - id: "MY_SENSOR_QFN_32"
+    type: "ic_qfn"
+    pad_count: 32
+    width_min: 4.5
+    width_max: 5.5
+    height_min: 4.5
+    height_max: 5.5
+    aspect_ratio_min: 1.0
+    aspect_ratio_max: 1.2
+    category: "ic"
+    layout_pattern: "quad"
+    pad_shape: "rect"
+    pad_pitch_min: 0.4
+    pad_pitch_max: 0.6
+    description: "自定义传感器 QFN-32"

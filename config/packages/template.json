@@ -1,0 +1,27 @@
+{
+  "packages": [
+    {
+      "id": "YOUR_PACKAGE_ID",
+      "type": "resistor|capacitor|ic_sop|ic_qfp|ic_qfn|ic_bga|connector_pin|connector_usb|diode|transistor|other",
+      "pad_count": 2,
+      "width_min": 0.0,
+      "width_max": 0.0,
+      "height_min": 0.0,
+      "height_max": 0.0,
+      "aspect_ratio_min": 1.0,
+      "aspect_ratio_max": 1.0,
+      "category": "passive|ic|connector|discrete|other",
+      "hierarchy": "generic|specific",
+      "pad_pitch_min": 0.0,
+      "pad_pitch_max": 0.0,
+      "pad_shape": "any|circle|rect|oval",
+      "pad_width_min": 0.0,
+      "pad_width_max": 0.0,
+      "pad_height_min": 0.0,
+      "pad_height_max": 0.0,
+      "layout_pattern": "any|single|dual|quad|grid",
+      "description": "封装描述",
+      "aliases": ["别名1", "别名2"]
+    }
+  ]
+}
